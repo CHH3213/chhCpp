@@ -1,0 +1,7 @@
+# ninja log v5
+2	318	6767478218423111	CMakeFiles/WorkerManager.dir/main.cpp.obj	e4c87b33c041bcc2
+6	412	6767477432799898	CMakeFiles/WorkerManager.dir/workerManager.cpp.obj	32819f5eafb92e1c
+319	509	6767478220304546	WorkerManager.exe	4d18f32f48ad0a6d
+17	355	6767443423736026	CMakeFiles/WorkerManager.dir/boss.cpp.obj	fc29a01214b130a5
+13	371	6767455389881578	CMakeFiles/WorkerManager.dir/manager.cpp.obj	4256a4d6fb0c5998
+7	371	6767443423906027	CMakeFiles/WorkerManager.dir/employee.cpp.obj	b57cf46620b7d0ef

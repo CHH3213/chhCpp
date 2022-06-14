@@ -1,0 +1,11 @@
+# ninja log v5
+1	2471	6767289530590827	CMakeFiles/TelMenu.dir/main.cpp.obj	9683af6dfb062c2d
+6	2467	6767289530590827	CMakeFiles/TelMenu.dir/deletePerson.cpp.obj	171db088c099445d
+1	273	6767261949045523	CMakeFiles/TelMenu.dir/showMenu.cpp.obj	a379ece34120c32c
+2482	3165	6767289537555153	TelMenu.exe	4237e729ef234227
+1	328	6767272330869399	CMakeFiles/TelMenu.dir/addPerson.cpp.obj	4f8388b88916a80
+9	2466	6767289530590827	CMakeFiles/TelMenu.dir/isExist.cpp.obj	2f879b23d7a646c8
+2	312	6767283810802056	CMakeFiles/TelMenu.dir/showPerson.cpp.obj	89eb255ae43d5b9e
+2	202	6767290265571999	build.ninja	ee9b53f84a44034c
+1	298	6767291077405255	CMakeFiles/TelMenu.dir/main.cpp.obj	9683af6dfb062c2d
+299	460	6767291079069530	TelMenu.exe	4237e729ef234227

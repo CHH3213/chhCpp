@@ -1,0 +1,26 @@
+# ninja log v5
+340	498	6769093957790778	Speech_Project_STL.exe	64bc14cc4e7bec1c
+2	239	6769104643091734	build.ninja	f48c5b6b81bf5b6f
+0	297	6769093955827578	CMakeFiles/Speech_Project_STL.dir/main.cpp.obj	6776187592a8a922
+5	339	6769093955827578	CMakeFiles/Speech_Project_STL.dir/src/speechManager.cpp.obj	5689b1765e5ad60f
+1	226	6769104643091734	build.ninja	f48c5b6b81bf5b6f
+10	327	6769104646561736	CMakeFiles/Speech_Project_STL.dir/src/Speaker.cpp.obj	23f99f204e5266d9
+1	424	6769104647521731	CMakeFiles/Speech_Project_STL.dir/main.cpp.obj	6776187592a8a922
+6	602	6769104649307005	CMakeFiles/Speech_Project_STL.dir/src/speechManager.cpp.obj	5689b1765e5ad60f
+602	785	6769104651107019	Speech_Project_STL.exe	842d6d81f421ae7f
+2	555	6769104906327083	CMakeFiles/Speech_Project_STL.dir/src/speechManager.cpp.obj	5689b1765e5ad60f
+566	748	6769104908217272	Speech_Project_STL.exe	842d6d81f421ae7f
+2	425	6769107648043712	CMakeFiles/Speech_Project_STL.dir/main.cpp.obj	6776187592a8a922
+7	633	6769107650123822	CMakeFiles/Speech_Project_STL.dir/src/speechManager.cpp.obj	5689b1765e5ad60f
+633	809	6769107651854432	Speech_Project_STL.exe	842d6d81f421ae7f
+2	455	6769110150464896	CMakeFiles/Speech_Project_STL.dir/main.cpp.obj	6776187592a8a922
+7	1041	6769110156315400	CMakeFiles/Speech_Project_STL.dir/src/speechManager.cpp.obj	5689b1765e5ad60f
+1041	1233	6769110158215535	Speech_Project_STL.exe	842d6d81f421ae7f
+1	453	6769112070789198	CMakeFiles/Speech_Project_STL.dir/main.cpp.obj	6776187592a8a922
+6	1044	6769112076700328	CMakeFiles/Speech_Project_STL.dir/src/speechManager.cpp.obj	5689b1765e5ad60f
+1044	1247	6769112078699045	Speech_Project_STL.exe	842d6d81f421ae7f
+1	1015	6769112962075361	CMakeFiles/Speech_Project_STL.dir/src/speechManager.cpp.obj	5689b1765e5ad60f
+1016	1194	6769112963835820	Speech_Project_STL.exe	842d6d81f421ae7f
+2	472	6769114105001262	CMakeFiles/Speech_Project_STL.dir/main.cpp.obj	6776187592a8a922
+8	1055	6769114110821670	CMakeFiles/Speech_Project_STL.dir/src/speechManager.cpp.obj	5689b1765e5ad60f
+1056	1253	6769114112750472	Speech_Project_STL.exe	842d6d81f421ae7f

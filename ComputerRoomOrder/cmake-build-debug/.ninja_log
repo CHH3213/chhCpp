@@ -1,0 +1,6 @@
+# ninja log v5
+8	552	6769160944603552	CMakeFiles/ComputerRoomOrder.dir/main.cpp.obj	5c9bf8dc0218a8a9
+1	336	6769161219934203	CMakeFiles/ComputerRoomOrder.dir/src/Student.cpp.obj	f1ee5dcf275983fb
+337	511	6769161221644684	ComputerRoomOrder.exe	4e6049be92af7aa6
+14	500	6769160944073718	CMakeFiles/ComputerRoomOrder.dir/src/Teacher.cpp.obj	4a0611cd5fb0e7fa
+20	704	6769160946113539	CMakeFiles/ComputerRoomOrder.dir/src/Manager.cpp.obj	d78f34ad888425fc
