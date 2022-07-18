@@ -106,6 +106,39 @@ build hello_world2.exe: CXX_EXECUTABLE_LINKER__hello_world2_Debug CMakeFiles/hel
   TARGET_IMPLIB = libhello_world2.dll.a
   TARGET_PDB = hello_world2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hello_world3
+
+
+#############################################
+# Order-only phony target for hello_world3
+
+build cmake_object_order_depends_target_hello_world3: phony || CMakeFiles/hello_world3.dir
+
+build CMakeFiles/hello_world3.dir/demo2.cpp.obj: CXX_COMPILER__hello_world3_Debug E$:/CHH3213_KING/NO_Chinese/chhCpp/hello_world/demo2.cpp || cmake_object_order_depends_target_hello_world3
+  DEP_FILE = CMakeFiles\hello_world3.dir\demo2.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\hello_world3.dir
+  OBJECT_FILE_DIR = CMakeFiles\hello_world3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hello_world3
+
+
+#############################################
+# Link the executable hello_world3.exe
+
+build hello_world3.exe: CXX_EXECUTABLE_LINKER__hello_world3_Debug CMakeFiles/hello_world3.dir/demo2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hello_world3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hello_world3.exe
+  TARGET_IMPLIB = libhello_world3.dll.a
+  TARGET_PDB = hello_world3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +169,8 @@ build hello_world: phony hello_world.exe
 
 build hello_world2: phony hello_world2.exe
 
+build hello_world3: phony hello_world3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +179,7 @@ build hello_world2: phony hello_world2.exe
 #############################################
 # Folder: E:/CHH3213_KING/NO_Chinese/chhCpp/hello_world/cmake-build-debug
 
-build all: phony hello_world.exe hello_world2.exe
+build all: phony hello_world.exe hello_world2.exe hello_world3.exe
 
 # =============================================================================
 # Built-in targets
