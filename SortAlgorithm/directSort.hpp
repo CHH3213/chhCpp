@@ -1,3 +1,7 @@
+//
+// Created by CHH3213 on 2022/8/3.
+//
+
 #include <iostream>
 #include <vector>
 
@@ -11,12 +15,4 @@ void directSort(vector<int>&arr){
         }
         if(j!=i)arr[j]=tmp;
     }
-}
-int main(){
-    vector<int>arr={9, -16, 310, 23, -30, -49, 25, 21, 30};
-    directSort(arr);
-    for(int a:arr){
-        cout<<a<<' ';
-    }
-    return 0;
 }
