@@ -1,22 +1,30 @@
-#include <iostream>
+#include<iostream>
 #include <vector>
+#include <climits>
 
 using namespace std;
-void directSort(vector<int>&arr){
-    for(int i=0;i<arr.size();i++){
-        int tmp=arr[i];
-        int j=i;
-        for(;j>0&&arr[j-1]>tmp;j--){
-            arr[j]=arr[j-1];
+int maxReward(string s,string t){
+    int m = s.size();
+    int n = t.size();
+    vector<vector<int>>dp(m+1,vector<int>(n+1,0));
+    for(int i=1;i<=m;i++){
+        for(int j=1;j<=n;j++){
+            if(s[i-1]==t[j-1]){
+                dp[i][j]=dp[i-1][j-1]+1;
+            }else{
+                dp[i][j]=max(dp[i-1][j],dp[i][j]);
+                dp[i][j]=max(dp[i][j-1],dp[i][j]);
+            }
         }
-        if(j!=i)arr[j]=tmp;
     }
+    return dp[m][n]*2;
 }
 int main(){
-    vector<int>arr={9, -16, 310, 23, -30, -49, 25, 21, 30};
-    directSort(arr);
-    for(int a:arr){
-        cout<<a<<' ';
-    }
+    string s1;
+    string s2;
+    cin>>s1;
+    cin>>s2;
+    int res = maxReward(s1,s2);
+    cout<<res<<endl;
     return 0;
 }
