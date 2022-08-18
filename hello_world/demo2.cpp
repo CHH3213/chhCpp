@@ -1,30 +1,31 @@
 #include<iostream>
 #include <vector>
 #include <climits>
+#include <algorithm>
+#include <unordered_map>
 
 using namespace std;
-int maxReward(string s,string t){
-    int m = s.size();
-    int n = t.size();
-    vector<vector<int>>dp(m+1,vector<int>(n+1,0));
-    for(int i=1;i<=m;i++){
-        for(int j=1;j<=n;j++){
-            if(s[i-1]==t[j-1]){
-                dp[i][j]=dp[i-1][j-1]+1;
-            }else{
-                dp[i][j]=max(dp[i-1][j],dp[i][j]);
-                dp[i][j]=max(dp[i][j-1],dp[i][j]);
-            }
+
+//第三题
+
+int main(){
+    int n;
+    cin>>n;
+    vector<int>vec(n);
+    for(int i=0;i<n;i++){
+        cin>>vec[i];
+    }
+    int res = 0 ;
+    for(int i=0;i<n;i++){
+        if(i>0&&vec[i]<=vec[i-1]+i-1)continue;
+        for(int j=i+1;j<n;j++){
+            if(j>i+1&&vec[j]<=vec[j-1]+j-1)continue;
+            res=max(res,vec[j]+vec[i]-(j-i));
         }
     }
-    return dp[m][n]*2;
-}
-int main(){
-    string s1;
-    string s2;
-    cin>>s1;
-    cin>>s2;
-    int res = maxReward(s1,s2);
     cout<<res<<endl;
+
+
+
     return 0;
 }

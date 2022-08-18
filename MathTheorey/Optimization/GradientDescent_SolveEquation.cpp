@@ -1,7 +1,12 @@
+//
+// Created by CHH3213 on 2022/8/18.
+//
 #include<iostream>
-#include<vector>
 #include <valarray>
-
+/*
+ * 使用梯度下降法求解方程的根：例如二次方程的根
+ * 步骤：原函数->构造损失函数->对损失函数求导->进行梯度下降
+ */
 using namespace std;
 
 # define DELTA 1e-4
@@ -32,7 +37,7 @@ int main(){
     double a = 1.0,b=2.0,c=-3.0;
     double x0=-b/(2*a)-1;//通过设置不同初值找出来
     double x1= GradientDescent(a,b,c,x0,0.01);
-     x0=-b/(2*a)+1;
+    x0=-b/(2*a)+1;
     double x2= GradientDescent(a,b,c,x0,0.01);
     cout<<x1<<" "<<x2<<endl;
 }

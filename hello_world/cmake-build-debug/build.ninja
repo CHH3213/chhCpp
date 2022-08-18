@@ -74,70 +74,136 @@ build hello_world.exe: CXX_EXECUTABLE_LINKER__hello_world_Debug CMakeFiles/hello
   TARGET_PDB = hello_world.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target hello_world2
+# Object build statements for EXECUTABLE target demo
 
 
 #############################################
-# Order-only phony target for hello_world2
+# Order-only phony target for demo
 
-build cmake_object_order_depends_target_hello_world2: phony || CMakeFiles/hello_world2.dir
+build cmake_object_order_depends_target_demo: phony || CMakeFiles/demo.dir
 
-build CMakeFiles/hello_world2.dir/demo.cpp.obj: CXX_COMPILER__hello_world2_Debug E$:/CHH3213_KING/NO_Chinese/chhCpp/hello_world/demo.cpp || cmake_object_order_depends_target_hello_world2
-  DEP_FILE = CMakeFiles\hello_world2.dir\demo.cpp.obj.d
+build CMakeFiles/demo.dir/demo.cpp.obj: CXX_COMPILER__demo_Debug E$:/CHH3213_KING/NO_Chinese/chhCpp/hello_world/demo.cpp || cmake_object_order_depends_target_demo
+  DEP_FILE = CMakeFiles\demo.dir\demo.cpp.obj.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles\hello_world2.dir
-  OBJECT_FILE_DIR = CMakeFiles\hello_world2.dir
+  OBJECT_DIR = CMakeFiles\demo.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target hello_world2
+# Link build statements for EXECUTABLE target demo
 
 
 #############################################
-# Link the executable hello_world2.exe
+# Link the executable demo.exe
 
-build hello_world2.exe: CXX_EXECUTABLE_LINKER__hello_world2_Debug CMakeFiles/hello_world2.dir/demo.cpp.obj
+build demo.exe: CXX_EXECUTABLE_LINKER__demo_Debug CMakeFiles/demo.dir/demo.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\hello_world2.dir
+  OBJECT_DIR = CMakeFiles\demo.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = hello_world2.exe
-  TARGET_IMPLIB = libhello_world2.dll.a
-  TARGET_PDB = hello_world2.exe.dbg
+  TARGET_FILE = demo.exe
+  TARGET_IMPLIB = libdemo.dll.a
+  TARGET_PDB = demo.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target hello_world3
+# Object build statements for EXECUTABLE target demo2
 
 
 #############################################
-# Order-only phony target for hello_world3
+# Order-only phony target for demo2
 
-build cmake_object_order_depends_target_hello_world3: phony || CMakeFiles/hello_world3.dir
+build cmake_object_order_depends_target_demo2: phony || CMakeFiles/demo2.dir
 
-build CMakeFiles/hello_world3.dir/demo2.cpp.obj: CXX_COMPILER__hello_world3_Debug E$:/CHH3213_KING/NO_Chinese/chhCpp/hello_world/demo2.cpp || cmake_object_order_depends_target_hello_world3
-  DEP_FILE = CMakeFiles\hello_world3.dir\demo2.cpp.obj.d
+build CMakeFiles/demo2.dir/demo2.cpp.obj: CXX_COMPILER__demo2_Debug E$:/CHH3213_KING/NO_Chinese/chhCpp/hello_world/demo2.cpp || cmake_object_order_depends_target_demo2
+  DEP_FILE = CMakeFiles\demo2.dir\demo2.cpp.obj.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles\hello_world3.dir
-  OBJECT_FILE_DIR = CMakeFiles\hello_world3.dir
+  OBJECT_DIR = CMakeFiles\demo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo2.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target hello_world3
+# Link build statements for EXECUTABLE target demo2
 
 
 #############################################
-# Link the executable hello_world3.exe
+# Link the executable demo2.exe
 
-build hello_world3.exe: CXX_EXECUTABLE_LINKER__hello_world3_Debug CMakeFiles/hello_world3.dir/demo2.cpp.obj
+build demo2.exe: CXX_EXECUTABLE_LINKER__demo2_Debug CMakeFiles/demo2.dir/demo2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\hello_world3.dir
+  OBJECT_DIR = CMakeFiles\demo2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = hello_world3.exe
-  TARGET_IMPLIB = libhello_world3.dll.a
-  TARGET_PDB = hello_world3.exe.dbg
+  TARGET_FILE = demo2.exe
+  TARGET_IMPLIB = libdemo2.dll.a
+  TARGET_PDB = demo2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo3
+
+
+#############################################
+# Order-only phony target for demo3
+
+build cmake_object_order_depends_target_demo3: phony || CMakeFiles/demo3.dir
+
+build CMakeFiles/demo3.dir/demo3.cpp.obj: CXX_COMPILER__demo3_Debug E$:/CHH3213_KING/NO_Chinese/chhCpp/hello_world/demo3.cpp || cmake_object_order_depends_target_demo3
+  DEP_FILE = CMakeFiles\demo3.dir\demo3.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\demo3.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo3
+
+
+#############################################
+# Link the executable demo3.exe
+
+build demo3.exe: CXX_EXECUTABLE_LINKER__demo3_Debug CMakeFiles/demo3.dir/demo3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo3.exe
+  TARGET_IMPLIB = libdemo3.dll.a
+  TARGET_PDB = demo3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo4
+
+
+#############################################
+# Order-only phony target for demo4
+
+build cmake_object_order_depends_target_demo4: phony || CMakeFiles/demo4.dir
+
+build CMakeFiles/demo4.dir/demo4.cpp.obj: CXX_COMPILER__demo4_Debug E$:/CHH3213_KING/NO_Chinese/chhCpp/hello_world/demo4.cpp || cmake_object_order_depends_target_demo4
+  DEP_FILE = CMakeFiles\demo4.dir\demo4.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\demo4.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo4
+
+
+#############################################
+# Link the executable demo4.exe
+
+build demo4.exe: CXX_EXECUTABLE_LINKER__demo4_Debug CMakeFiles/demo4.dir/demo4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo4.exe
+  TARGET_IMPLIB = libdemo4.dll.a
+  TARGET_PDB = demo4.exe.dbg
 
 
 #############################################
@@ -165,11 +231,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build demo: phony demo.exe
+
+build demo2: phony demo2.exe
+
+build demo3: phony demo3.exe
+
+build demo4: phony demo4.exe
+
 build hello_world: phony hello_world.exe
-
-build hello_world2: phony hello_world2.exe
-
-build hello_world3: phony hello_world3.exe
 
 # =============================================================================
 # Folder targets.
@@ -179,7 +249,7 @@ build hello_world3: phony hello_world3.exe
 #############################################
 # Folder: E:/CHH3213_KING/NO_Chinese/chhCpp/hello_world/cmake-build-debug
 
-build all: phony hello_world.exe hello_world2.exe hello_world3.exe
+build all: phony hello_world.exe demo.exe demo2.exe demo3.exe demo4.exe
 
 # =============================================================================
 # Built-in targets
