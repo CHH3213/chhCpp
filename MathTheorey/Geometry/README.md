@@ -5,7 +5,7 @@
 - [计算几何学 | 距离 ](https://blog.csdn.net/qq_40998706/article/details/87449084)| [Distance](https://github.com/CHH3213/chhCpp/blob/master/MathTheorey/Geometry/Distance.cpp)
 - [计算几何学 | 判断线段相交 ](https://blog.csdn.net/qq_40998706/article/details/87467309)| [Intersection](https://github.com/CHH3213/chhCpp/blob/master/MathTheorey/Geometry/Intersection.cpp)
 - [计算几何学 | 映像](https://blog.csdn.net/qq_40998706/article/details/87435372) | [Reflection](https://github.com/CHH3213/chhCpp/blob/master/MathTheorey/Geometry/Relection.cpp)
-- [计算几何学 | 逆时针方向 | Counter-Clockwise](https://blog.csdn.net/qq_40998706/article/details/87455786)
+- [计算几何学 | 逆时针方向 ](https://blog.csdn.net/qq_40998706/article/details/87455786)| [Counter_Clockwise](https://github.com/CHH3213/chhCpp/blob/master/MathTheorey/Geometry/Counter_Clockwise.cpp)
 - [计算几何学 | 线段的交点 ](https://blog.csdn.net/qq_40998706/article/details/87482435) | [Cross_Point](https://github.com/CHH3213/chhCpp/blob/master/MathTheorey/Geometry/Cross_Point.cpp)
 
   - [几何求交（一）：直线和直线的交点](https://blog.csdn.net/fengkeyleaf/article/details/117692109)
