@@ -4,35 +4,21 @@
 
 using namespace std;
 
-# define DELTA 1e-4
-#define EPS 1e-6
-//y=ax^2+bx+c
-double func(double a,double b,double c,double x){
-    return a*pow(x,2)+b*x+c;
-}
 
-//构造损失函数
-double loss_func(double a,double b,double c,double x){
-    return pow(func(a,b,c,x)-0,2);
-}
-
-//构造损失函数导数
-double loss_func_prime(double a,double b,double c,double x){
-    return (loss_func(a,b,c,x+DELTA)-loss_func(a,b,c,x))/DELTA;
-}
-
-double GradientDescent(double a,double b,double c,double x0,double learning_rate ){
-    double x = x0;
-    while(abs(loss_func(a,b,c,x))>EPS){
-        x = x-learning_rate* loss_func_prime(a,b,c,x);
-    }
-    return x;
-}
 int main(){
-    double a = 1.0,b=2.0,c=-3.0;
-    double x0=-b/(2*a)-1;//通过设置不同初值找出来
-    double x1= GradientDescent(a,b,c,x0,0.01);
-     x0=-b/(2*a)+1;
-    double x2= GradientDescent(a,b,c,x0,0.01);
-    cout<<x1<<" "<<x2<<endl;
+    int n;
+    int x1,y1,x2,y2,x3,y3;
+    cin>>x1>>y1>>x2>>y2>>x3>>y3;
+    int d1,d2,d3;
+    cin>>d1>>d2>>d3;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            if(abs(i-x1)+abs(j-y1)==d1&&abs(i-x2)+abs(j-y2)==d2&&abs(i-x3)+abs(j-y3)==d3){
+                cout<<i<<" "<<j<<endl;
+                return 0;
+            }
+        }
+    }
+    return 0;
+
 }
