@@ -1,13 +1,8 @@
-#include<iostream>
-#include<vector>
-#include<string>
-#include <queue>
-#include <complex>
-
+#include<bits/stdc++.h>
 using namespace std;
 
 
-int main(){
 
-   return 0;
+int main() {
+    return 0;
 }
