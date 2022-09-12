@@ -4,12 +4,12 @@
 #include<iostream>
 #include <valarray>
 /*
- * 使用梯度下降法求解方程的根：例如二次方程的根
+ * 使用梯度下降法求解二次方程的根
  * 步骤：原函数->构造损失函数->对损失函数求导->进行梯度下降
  */
 using namespace std;
 
-# define DELTA 1e-4
+#define DELTA 1e-4
 #define EPS 1e-6
 //y=ax^2+bx+c
 double func(double a,double b,double c,double x){
@@ -27,6 +27,12 @@ double loss_func_prime(double a,double b,double c,double x){
 }
 
 double GradientDescent(double a,double b,double c,double x0,double learning_rate ){
+    /**
+     * 梯度下降算法
+     * a,b,c为二次函数的系数
+     * x0为迭代初值
+     * learning_rate为学习率
+     */
     double x = x0;
     while(abs(loss_func(a,b,c,x))>EPS){
         x = x-learning_rate* loss_func_prime(a,b,c,x);
