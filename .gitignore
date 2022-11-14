@@ -1,7 +1,7 @@
 ### C++ template
 # Prerequisites
 *.d
-
+.vscode
 # Compiled Object files
 *.slo
 *.lo
@@ -91,6 +91,7 @@ CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
+cmake-build-debug
 Testing
 Makefile
 cmake_install.cmake
